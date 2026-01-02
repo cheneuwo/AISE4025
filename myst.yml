@@ -7,21 +7,34 @@ project:
   keywords:
     - Computer Assisted Surgery
     - Image Guided Surgery
-  authors: Elvis C.S. Chen, PhD, LEL 
+  authors: 
+    - name: Elvis C.S. Chen, PhD, LEL
+      email: echen29@uwo.ca
+      affiliation: Western University, Canada
   # github:
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: docs\000\Abstract.md
     - title: Part 1
-      children:
+      children:      
+        - file: docs\001\Course_Structure.md
         - file: docs\001\Background.md
   exports:
     - format: pdf
       template: lapreprint-typst
-      articles: docs\000\Abstract.md
+      articles: 
+        - docs\000\Abstract.md
+        - docs\001\Course_Structure.md
+        - docs\001\Background.md
+      options: 
+        logo: logo.png
+      publisheddate: 2026-01-01
+      output: _build\exports\myst_typst\AISE4025.pdf
 site:
   template: book-theme
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
   options:
     avicon: favicon.ico
     logo: logo.png

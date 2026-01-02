@@ -6,6 +6,7 @@ project:
   description: Supplemental materials for AISE 4025 at Western University, Canada
   keywords:
     - Computer Assisted Surgery
+    - Computer Assisted Interventional Medicine
     - Image Guided Surgery
   authors: 
     - name: Elvis C.S. Chen, PhD, LEL
@@ -13,20 +14,22 @@ project:
       affiliation: Western University, Canada
   # github:
 
+  bibliography: 
+    - docs\references.bib
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: docs\000\Abstract.md
     - title: Part 1
       children:      
         - file: docs\001\Course_Structure.md
-        - file: docs\001\Background.md
+        - file: docs\001\Surgery.md
   exports:
     - format: pdf
       template: lapreprint-typst
       articles: 
         - docs\000\Abstract.md
         - docs\001\Course_Structure.md
-        - docs\001\Background.md
+        - docs\001\Surgery.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

@@ -2,9 +2,9 @@
 +++ {"part": "abstract"}
 This is a work in progress. This document will be updated continuously.
 
-This document is a collection of supplemental materials for AISE 4025, a course titled **Introduction to Computer-Assisted Surgery: Theory and Practice**, taught at the Department of Electrical and Computer Engineering at Western University, Canada.
+This document is a collection of supplemental materials for AISE 4025, titled **Introduction to Computer-Assisted Surgery: Theory and Practice**, taught at the Department of Electrical and Computer Engineering at Western University, Canada.
 
-Janurary 1, 2026
+January 1, 2026
 +++
 
 While this course focuses on computer-assisted surgery (CAS), let's begin our dialogue within the broader context of computer-integrated interventional medicine.

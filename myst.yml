@@ -12,7 +12,7 @@ project:
     - name: Elvis C.S. Chen, PhD, LEL
       email: echen29@uwo.ca
       affiliation: Western University, Canada
-  github: https://cheneuwo.github.io/AISE4025/
+  github: https://github.com/cheneuwo/AISE4025
 
   bibliography: 
     - docs/references.bib

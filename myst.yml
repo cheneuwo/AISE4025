@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 88c7e888-f475-435f-83fb-624cf76f8d91
-  title: Introduction to Computer Assisted Surgery
+  title: Introduction to Computer Assisted Surgeries - Theory and Practice
   description: Supplemental materials for AISE 4025 at Western University, Canada
   keywords:
     - Computer Assisted Surgery
@@ -12,13 +12,16 @@ project:
 
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
-    - file: docs/Introduction.md
+    - file: docs\000\Abstract.md
+    - title: Part 1
+      children:
+        - file: docs\001\Background.md
   exports:
     - format: pdf
       template: lapreprint-typst
-      articles: docs/Introduction.md
+      articles: docs\000\Abstract.md
 site:
   template: book-theme
   options:
-  #   favicon: favicon.ico
+    avicon: favicon.ico
     logo: logo.png

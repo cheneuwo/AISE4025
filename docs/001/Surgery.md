@@ -27,7 +27,7 @@ Traditional open surgery requires large incisions to establish direct line-of-si
 A depiction of open liver surgery with large incision, image courtesy of {cite}`GG2011`.
 ```
 
-However, advances in medical imaging and mechatronics have revolutionized this approach. Technologies such as laparoscopic cameras, fibre-optic illumination, miniaturized instruments, and medical robotics now enable surgeons to achieve nearly equivalent visualization and manipulation through small *keyhole* incisions, forming the foundation of **minimally invasive surgery**.
+However, advances in medical imaging and mechatronics have revolutionized this approach. Technologies such as laparoscopic cameras, fibre-optic illumination, miniaturized instruments, and medical robotics now enable surgeons to achieve nearly equivalent visualization and manipulation through small *keyhole* incisions, forming the foundation of **Minimally Invasive Surgery ({term}`MIS`)**.
 
 ```{figure} ./../images/464_2022_9312_Fig9_HTML.webp
 :label: fig_lapar_liver_surgery
@@ -35,10 +35,10 @@ However, advances in medical imaging and mechatronics have revolutionized this a
 :align: center
 :width: 80%
 
-A depiction of minimally invasive surgery where surgical access is provided through trocar, image courtesy of citation {cite}`HXQ+2022`.
+A depiction of {term}`MIS` where surgical access is provided through trocar, image courtesy of citation {cite}`HXQ+2022`.
 ```
 
-From an engineering perspective, this evolution represents an optimization problem: how do we maintain surgical capability while minimizing tissue trauma? The answer lies in advancing medical imaging systems, precision mechanics and mechatronics, and human-computer interfaces that extend the surgeon's sensory and motor capabilities.
+From an engineering perspective, this evolution represents an optimization problem: how do we maintain surgical capability while minimizing tissue trauma? The answer lies in advancing medical imaging systems, precision mechanics and mechatronics, and human-computer interfaces ({term}`HCI`) that extend the surgeon's sensory and motor capabilities.
 
 ## Surgery vs. Intervention: The Critical Distinction
 
@@ -68,6 +68,6 @@ Understanding this distinction between **surgery** and **intervention** leads to
 
 The research problem we wish to address, in this regard, is how to deliver therapeutic interventions without any, or minimal, surgical trauma to the patient. Every incision or every tissue manipulation represents a necessary compromise - a **side-effect** we accept to enable outcome-improving interventions.
 
-This perspective explains why computer-assisted surgery technologies are so compelling: they promise to minimize the surgical side-effects while maximizing therapeutic precision. As biomedical engineers, our goal is not just to make surgery more precise, but to make it less necessary—to find ways to deliver therapeutic interventions with minimal surgical trauma.
+This perspective explains why {term}`CAS` technologies are so compelling: they promise to minimize the surgical side-effects while maximizing therapeutic precision. As biomedical engineers, our goal is not just to make surgery more precise, but to make it less necessary — to find ways to deliver therapeutic interventions with minimal surgical trauma.
 
-This conceptual framework will guide our exploration of image-guided surgery, robotic systems, and emerging technologies that continue to push the boundaries of what's possible in minimally invasive intervention.
+This conceptual framework will guide our exploration of image-guided interventions ({term}`IGI`), robotic systems, and emerging technologies (such as 3D visualization) that continue to push the boundaries of what's possible in minimally invasive intervention.

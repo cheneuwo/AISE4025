@@ -20,17 +20,32 @@ CIIM
 CT
 : Computed Tomography
 
+CV
+: Computer Vision
+
+DoF
+: Degrees of Freedom
+
 GPS
 : Global Positioning System
 
+HCI
+: Human Computer Interface
+
 IGI
 : Image-Guided Intervention
+
+MIS
+: Minimally Invasive Surgery
 
 MRI
 : Magnetic Resonance Imaging
 
 MTS
 : Magnetic (electromagnetic) Tracking System
+
+OPA
+: Orthogonal Procrustes Analysis
 
 OTS
 : Optical Tracking System

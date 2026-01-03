@@ -30,10 +30,16 @@ GPS
 : Global Positioning System
 
 HCI
-: Human Computer Interface
+: Human-Computer Interface
 
 IGI
 : Image-Guided Intervention
+
+IGS
+: Image-Guided Surgery
+
+IGT
+: Image-Guided Therapy
 
 MIS
 : Minimally Invasive Surgery
@@ -57,4 +63,3 @@ US
 : Ultrasound
 
 :::
-

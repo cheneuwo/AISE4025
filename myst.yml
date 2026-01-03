@@ -24,6 +24,7 @@ project:
       children:      
         - file: docs/001/Course_Structure.md
         - file: docs/001/Surgery.md
+        - file: docs/001/Terminology.md
   exports:
     - format: pdf
       template: lapreprint-typst
@@ -32,6 +33,7 @@ project:
         - docs/000/Abstract.md
         - docs/001/Course_Structure.md
         - docs/001/Surgery.md
+        - docs/001/Terminology.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

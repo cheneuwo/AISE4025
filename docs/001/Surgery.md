@@ -26,6 +26,7 @@ Traditional open surgery requires large incisions to establish direct line-of-si
 
 A depiction of open liver surgery with large incision, image courtesy of [](https://doi.org/10.1016/j.jviscsurg.2011.09.015).
 ```
+[comment]: <> (<cite>`GG2011`)
 
 However, advances in medical imaging and mechatronics have revolutionized this approach. Technologies such as laparoscopic cameras, fibre-optic illumination, miniaturized instruments, and medical robotics now enable surgeons to achieve nearly equivalent visualization and manipulation through small *keyhole* incisions, forming the foundation of **Minimally Invasive Surgery ({term}`MIS`)**.
 
@@ -38,6 +39,7 @@ However, advances in medical imaging and mechatronics have revolutionized this a
 A depiction of {term}`MIS` where surgical access is provided through trocar, image courtesy of citation 
 [](https://doi.org/10.1007/s00464-022-09312-9).
 ```
+[comment]: <> (<cite>`HXQ+2022`)
 
 From an engineering perspective, this evolution represents an optimization problem: how do we maintain surgical capability while minimizing tissue trauma? The answer lies in advancing medical imaging systems, precision mechanics and mechatronics, and human-computer interfaces ({term}`HCI`) that extend the surgeon's sensory and motor capabilities.
 

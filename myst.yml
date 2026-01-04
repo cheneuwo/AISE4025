@@ -20,6 +20,7 @@ project:
   toc:
     - file: docs/000/Glossary.md
     - file: docs/000/Abstract.md
+    - file: docs/000/Acknowledgement.md
     - title: Part 1
       children:      
         - file: docs/001/Course_Structure.md
@@ -31,6 +32,7 @@ project:
       articles: 
         - docs/000/Glossary.md
         - docs/000/Abstract.md
+        - docs/000/Acknowledgement.md
         - docs/001/Course_Structure.md
         - docs/001/Surgery.md
         - docs/001/Terminology.md

@@ -41,6 +41,12 @@ IGS
 IGT
 : Image-Guided Therapy
 
+iMRI
+: Intraoperative Magnetic Resonance Imaging
+
+IR
+: Interventional Radiology
+
 MIS
 : Minimally Invasive Surgery
 
@@ -53,8 +59,14 @@ MTS
 OPA
 : Orthogonal Procrustes Analysis
 
+OR
+: Operating Room
+
 OTS
 : Optical Tracking System
+
+RFA
+: Radiofrequency Ablation
 
 TQM
 : Total Quality Management

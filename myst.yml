@@ -26,6 +26,10 @@ project:
         - file: docs/001/Course_Structure.md
         - file: docs/001/Surgery.md
         - file: docs/001/Terminology.md
+        - file: docs/001/History.md
+    - title: Part 2
+      children:
+        - file: docs/002/Math_Primer.md
   exports:
     - format: pdf
       template: lapreprint-typst
@@ -36,6 +40,8 @@ project:
         - docs/001/Course_Structure.md
         - docs/001/Surgery.md
         - docs/001/Terminology.md
+        - docs/001/History.md
+        - docs/002/Math_Primer.md
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

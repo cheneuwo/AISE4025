@@ -9,3 +9,17 @@ In Anaconda, this can be accomplished using
 ```
 conda install conda-forge::jupyter-book
 ```
+
+To build a PDF version of this document, [typst](https://typst.app/) must be installed
+
+```
+conda install conda-forge::typst
+```
+
+The PDF can then be build:
+
+```
+jupyter book build --pdf
+```
+
+However, there seemed to be some incompatibility issue at the moment.

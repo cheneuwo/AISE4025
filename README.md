@@ -22,4 +22,10 @@ The PDF can then be build:
 jupyter book build --pdf
 ```
 
-However, there seemed to be some incompatibility issue at the moment.
+However, there seemed to be some compatibility issues in converting typst to PDF at the moment.
+
+To build bibliography automatically, [myst](https://mystmd.org/) must be installed
+
+```
+conda install conda-forge::mystmd
+```

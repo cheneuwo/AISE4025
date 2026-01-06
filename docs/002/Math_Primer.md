@@ -74,9 +74,11 @@ A {term}`3D` volumetric image data such as {term}`CT` or {term}`MRI` are typical
 
 Sequential CT slices displayed as 2D images, image courtesy [here](https://theconversation.com/50-years-ago-the-first-ct-scan-let-doctors-see-inside-a-living-skull-thanks-to-an-eccentric-engineer-at-the-beatles-record-company-149907), accessed on January 6, 2026.
 ```
+
 This was mainly done for historical reasons including the lack of computational power to render these volumetric data in {term}`3D` using technique such as <wiki:Volume_rendering>.
 
 A volumetric data is presented digitally as {term}`3D` array in computer where, conceptually, each 2D slice is assigned a $x-y$ coordinate system and sequential images are stacked in the $z-$axis.
+
 ```{figure} ./../images/002/fig_3D_volume.png
 :label: fig_3D_volume
 :alt: A coordinate system assited to a 3D volume
@@ -85,29 +87,61 @@ A volumetric data is presented digitally as {term}`3D` array in computer where, 
 
 A coordinate system assigned to a 3D volumetric data, where sequential 2D images are assigned a z-coordinate value.
 ```
+
 In this regard, each **voxel** (i.e. a *volumetric* pixel) is indexed using the $(x,y,z)$ notation.
 
-## Enter Cartesian Coordinate Systems
+### Image Fusion and Augmented Reality Visualization
 
-The solution begins with establishing a **Cartesian coordinate system**—a mathematical framework named after René Descartes that allows us to uniquely specify any point in space using numerical coordinates.
+Image fusion and augmented reality visualization requires the alignment of multiple coordinate systems. This is accomplished via **transformation** that maps one coordinate system onto another.
 
-In 2D (for our image example), we define:
-- An **origin** point (typically the top-left corner of the image, at pixel $(0,0)$),
-- Two perpendicular **axes** (horizontal $x$-axis and vertical $y$-axis), and
-- A **scale** that converts pixel indices to physical distances (e.g., each pixel represents 0.5 mm × 0.5 mm of actual tissue).
+```{figure} https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11042-023-16515-2/MediaObjects/11042_2023_16515_Fig2_HTML.png?as=webp
+:label: fig_Image_Fusion
+:alt: Image Fusion
+:align: center
+:width: 80%
 
-With this framework, we can now say that the tumour centre at pixel $(256, 300)$ corresponds to physical coordinates:
+Examples of the common combinations of multimodal medical image fusion (MMIF), image courtesy [here](https://link.springer.com/article/10.1007/s11042-023-16515-2), accessed on January 6, 2026.
+```
 
-$$
-\begin{aligned}
-x &= 256 \times 0.5\text{ mm} = 128\text{ mm} \\
-y &= 300 \times 0.5\text{ mm} = 150\text{ mm}
-\end{aligned}
-$$
+Categorically, there are three types of transformations:
+1. Rigid transformation
+    - Represented as a $4 \times 4$ transformation matrix that
+        - Rotates, and
+        - Translates one coordinate system onto another.
+1. Similarity transformation
+    - Similar to the rigid translation, but with scaling
+    - Also represented as a $4 \times 4$ transformation matrix
+    - Scaling can be:
+        - Isotropic, same in all 3 directions, or
+        - Anisotropic, different in each direction
+1. Deformable transformation
+    - In some literature, referred to as *elastic* transformation
+    - Typically represented as an array ({term}`2D` or {term}`3D`) of deformation fields, or by some parametric function.
 
-measured from the origin of our chosen coordinate system.
+For the purpose of this course, we focus on only rigid and similarity transformation.
+
+## Cartesian Coordinate Systems
+
+The key solution is to establish a **<wiki:Cartesian_coordinate_system>**, that specifies each point uniquely by a pair (in {term}`2D`) or a triplet (in {term}`3D`) of real number called *coordinate* that in terms allows use to use vector geometry to address these problems.
+
+A Cartesian coordinate system has
+- An **origin**, denoted as $O=(0,0)$ in {term}`2D` or $O=(0,0,0)$ in {term}`3D`,
+- **Axes**, a notation of directions, that intersect at the origin. In most of the scenarios we will encounter in this course, these axes are perpenticular to each other, and
+- A **scale**. Each increment, i.e. from $(0,0)$ to $(1,0)$, at a coordinate system may correspond to a physical unit. For example, a pixel in an {term}`US` image may occupy a physical space of $1.0mm \times 1.0mm$, but a voxel in a {term}`CT` volume may occupy a physical space of $0.3mm \times 0.3mm \times 0.4mm$. Often, an *anisotropic* scaling is needed to match one coordinate system with another.
 
 ## Vector Geometry: Describing Positions and Transformations
+
+In medical imaging and most of the engineering fields, we use a **<wiki:Right-hand_rule>** to define the orientation of the axes with respect to its origin. That is, when extended, if the thumb points at the first (positive x-) axis, and the index finger points at the second (positive y-) axis, then middle finger points to the third (positive z-) axis.
+
+```{figure} ./../images/002/fig_right_hand_rule.png
+:label: fig_right_hand_rule
+:alt: Right hand rule
+:align: center
+:width: 80%
+
+Right-hand rule, image courtesy of Prof. Gabor Fichtinger at Queen's University, Canada.
+```
+This is the opposite of the left-hand rule, which is more commonly employed in Physics.
 
 But we're not done yet. In surgical navigation, we need to work with:
 - **Positions** of anatomical landmarks and surgical targets,

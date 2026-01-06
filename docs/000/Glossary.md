@@ -68,6 +68,9 @@ IR
 MIS
 : Minimally Invasive Surgery
 
+MMIF
+: Multimodal Medical Image Fusion
+
 MRI
 : Magnetic Resonance Imaging
 

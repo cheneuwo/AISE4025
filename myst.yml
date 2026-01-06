@@ -18,8 +18,8 @@ project:
     - docs/references.bib
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
-    - file: docs/000/Glossary.md
     - file: docs/000/Abstract.md
+    - file: docs/000/Glossary.md
     - file: docs/000/Acknowledgement.md
     - title: Part 1
       children:      
@@ -34,8 +34,8 @@ project:
     - format: pdf
       template: lapreprint-typst
       articles: 
-        - docs/000/Glossary.md
         - docs/000/Abstract.md
+        - docs/000/Glossary.md
         - docs/000/Acknowledgement.md
         - docs/001/Course_Structure.md
         - docs/001/Surgery.md

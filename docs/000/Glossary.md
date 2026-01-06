@@ -2,6 +2,18 @@
 
 :::{glossary}
 
+1D
+: In one-dimension or one-dimensional
+
+2D
+: In two-dimension or two-dimensional
+
+3D
+: In three-dimension or three-dimensional
+
+4D
+: In four-dimension or four-dimensional
+
 CAD
 : Computer-Aided Design
 
@@ -25,6 +37,12 @@ CV
 
 DoF
 : Degrees of Freedom
+
+FLE
+: Fiducial Localization Error
+
+FRE
+: Fiducial Registration Error
 
 GPS
 : Global Positioning System
@@ -56,6 +74,9 @@ MRI
 MTS
 : Magnetic (electromagnetic) Tracking System
 
+RGB
+: Red-Green-and-Blue
+
 OPA
 : Orthogonal Procrustes Analysis
 
@@ -70,6 +91,9 @@ RFA
 
 TQM
 : Total Quality Management
+
+TRE
+: Target Registration Error
 
 US
 : Ultrasound

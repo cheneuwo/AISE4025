@@ -141,7 +141,74 @@ In medical imaging and most of the engineering fields, we use a **<wiki:Right-ha
 
 Right-hand rule, image courtesy of Prof. Gabor Fichtinger at Queen's University, Canada.
 ```
+
 This is the opposite of the left-hand rule, which is more commonly employed in Physics.
+
+### Notation for this course:
+
+```{figure} ./../images/002/fig_cartesian.png
+:label: fig_cartesian
+:alt: Cartesian coordinate system
+:align: center
+:width: 80%
+
+Righthanded **Cartesian** coordinate system (a.k.a. frame), with $(i,j,k)$ orthonormal bases.
+```
+
+We use the following notation:
+- Points in capital
+- Vectors and location vectors are usually in lower case, often in *italic* and/or **bold**
+- $\lvert p \rvert$ is for length of a vector or "absolute value"
+- Sometimes, we omit **bold** and/or *italics*
+- Sometimes, we use location vectors and points interchangeably
+- Sometimes, we use the same letter and font for x,y,z coordinates and labelling the x,y,z axes
+
+Thus, a location vector ***p*** can be expressed by the linear combination of the base vector
+
+$$
+p = P = x i + y j + z k
+$$
+
+and
+
+$$
+length(p) = \lvert p \rvert = sqrt( x^2 + y^2 + z^2)
+$$
+
+#### Skewed Cartesian Frame
+
+Some CT scanners, such as the Toshiba Asteion 4, has the ability to performed *tilted* scan. The intended use is, as an example, reduce X-ray radiation dose to patient's eye lenses. 
+
+```{figure} ./../images/002/fig_tilted_CT.png
+:label: fig_skewed_cartesian
+:alt: Skewed Cartesian coordinate system
+:align: center
+:width: 80%
+
+A Tilted Computed Tomography (CT) machine, aimed to reduce X-ray dose to eye lenses, image courtesy of Prof. Gabor Fichtinger at Queen's University, Canada
+```
+
+In this scenario, the base vectors are **no longer** pair-wise orthogonal, however, a point P or location vector $p$ can still be represented by the linear combination of the base vector
+
+
+$$
+p = P = x i + y j + z k
+$$
+
+But the length of the vector is no longer the square root of the sums of the squared coordinates:
+
+$$
+\lvert p \rvert \ne sqrt( x^2 + y^2 + z^2)
+$$
+
+```{figure} ./../images/002/fig_tCT.png
+:label: fig_skewed_CT
+:alt: Skewed CT slices
+:align: center
+:width: 80%
+
+A Tilted Computed Tomography (CT) image volume, image courtesy of Prof. Gabor Fichtinger at Queen's University, Canada
+```
 
 But we're not done yet. In surgical navigation, we need to work with:
 - **Positions** of anatomical landmarks and surgical targets,

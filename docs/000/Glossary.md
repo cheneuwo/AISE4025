@@ -98,6 +98,9 @@ TQM
 TRE
 : Target Registration Error
 
+TRUS
+: Transrectal Ultrasound
+
 US
 : Ultrasound
 

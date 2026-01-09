@@ -29,6 +29,9 @@ CAS
 CIIM
 : Computer-Integrated Interventional Medicine
 
+COG
+: Center of Gravity
+
 CT
 : Computed Tomography
 

@@ -92,6 +92,9 @@ OTS
 RFA
 : Radiofrequency Ablation
 
+RHR
+: Right Hand Rule
+
 TQM
 : Total Quality Management
 

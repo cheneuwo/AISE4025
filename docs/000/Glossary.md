@@ -80,6 +80,9 @@ MRI
 MTS
 : Magnetic (electromagnetic) Tracking System
 
+REM
+: Residual Error Metric
+
 RGB
 : Red-Green-and-Blue
 

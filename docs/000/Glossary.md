@@ -14,6 +14,9 @@
 4D
 : In four-dimension or four-dimensional
 
+Avg
+: average
+
 CAD
 : Computer-Aided Design
 
@@ -100,6 +103,12 @@ RFA
 
 RHR
 : Right Hand Rule
+
+RMS
+: Root Mean Square
+
+STD
+: Standard Deviation
 
 TQM
 : Total Quality Management

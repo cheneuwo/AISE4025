@@ -30,6 +30,7 @@ project:
     - title: Part 2
       children:
         - file: docs/002/Math_Primer.ipynb
+        - file: docs/002/Math_Transform.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

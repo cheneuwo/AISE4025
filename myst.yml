@@ -21,15 +21,16 @@ project:
     - file: docs/000/Abstract.md
     - file: docs/000/Glossary.md
     - file: docs/000/Acknowledgement.md
-    - title: Part 1
+    - title: Introduction
       children:      
         - file: docs/001/Course_Structure.md
         - file: docs/001/Surgery.md
         - file: docs/001/Terminology.md
         - file: docs/001/History.md
-    - title: Part 2
+    - title: Math Primer
       children:
-        - file: docs/002/Math_Primer.ipynb
+        - file: docs/002/Math_Primer_Cartesian.ipynb
+        - file: docs/002/Math_Primer_Vector.ipynb
         - file: docs/002/Math_Transform.ipynb
   exports:
     - format: pdf
@@ -42,7 +43,8 @@ project:
         - docs/001/Surgery.md
         - docs/001/Terminology.md
         - docs/001/History.md
-        - docs/002/Math_Primer.ipynb
+        - docs/002/Math_Primer_Cartesian.ipynb
+        - docs/002/Math_Primer_Vector.ipynb
       options: 
         logo: logo.png
       publisheddate: 2026-01-01

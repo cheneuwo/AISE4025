@@ -32,6 +32,9 @@ project:
         - file: docs/002/Math_Primer_Cartesian.ipynb
         - file: docs/002/Math_Primer_Vector.ipynb
         - file: docs/002/Math_Transform.ipynb
+    - title: Code Samples
+      children:
+        - file: docs/Code_samples/Tutorial_1_point_axes.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

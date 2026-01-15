@@ -53,6 +53,9 @@ FRE
 GPS
 : Global Positioning System
 
+GUI
+: Graphical User Interface
+
 HCI
 : Human-Computer Interface
 
@@ -121,5 +124,8 @@ TRUS
 
 US
 : Ultrasound
+
+VTK
+: Visualization Toolkit
 
 :::

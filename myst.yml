@@ -35,6 +35,7 @@ project:
     - title: Code Samples
       children:
         - file: docs/Code_samples/Tutorial_1_point_axes.ipynb
+        - file: docs/Code_samples/Tutorial_2_vectors.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

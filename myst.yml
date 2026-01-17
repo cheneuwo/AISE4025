@@ -36,6 +36,7 @@ project:
       children:
         - file: docs/Code_samples/Tutorial_1_point_axes.ipynb
         - file: docs/Code_samples/Tutorial_2_vectors.ipynb
+        - file: docs/Code_samples/Tutorial_3_cross_products.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

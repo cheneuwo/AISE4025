@@ -38,6 +38,7 @@ project:
         - file: docs/Code_samples/Tutorial_2_vectors.ipynb
         - file: docs/Code_samples/Tutorial_3_cross_products.ipynb
         - file: docs/Code_samples/Tutorial_4_orthonormal_basis.ipynb
+        - file: docs/Code_samples/Tutorial_5_triangle_area.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

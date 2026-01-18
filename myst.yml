@@ -40,6 +40,7 @@ project:
         - file: docs/Code_samples/Tutorial_4_orthonormal_basis.ipynb
         - file: docs/Code_samples/Tutorial_5_triangle_area.ipynb
         - file: docs/Code_samples/Tutorial_6_line_plane_intersection.ipynb
+        - file: docs/Code_samples/Tutorial_7_Line_Sphere_intersection.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

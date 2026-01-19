@@ -113,6 +113,9 @@ RMS
 STD
 : Standard Deviation
 
+SVD:
+: Singular Value Decomposition
+
 TQM
 : Total Quality Management
 

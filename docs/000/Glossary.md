@@ -113,7 +113,7 @@ RMS
 STD
 : Standard Deviation
 
-SVD:
+SVD
 : Singular Value Decomposition
 
 TQM

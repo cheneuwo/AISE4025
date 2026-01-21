@@ -38,6 +38,12 @@ COG
 CT
 : Computed Tomography
 
+CCW
+: Counter-clock-wise
+
+CW
+: Clock-wise
+
 CV
 : Computer Vision
 

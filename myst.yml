@@ -44,6 +44,7 @@ project:
         - file: docs/Code_samples/Tutorial_8_Line_Ellipsoid_intersection.ipynb
         - file: docs/Code_samples/Tutorial_9_Translation.ipynb
         - file: docs/Code_samples/Tutorial_10_Rotation.ipynb
+        - file: docs/Code_samples/Tutorial_11_Transformations.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

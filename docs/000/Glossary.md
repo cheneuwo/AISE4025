@@ -33,7 +33,7 @@ CIIM
 : Computer-Integrated Interventional Medicine
 
 COG
-: Center of Gravity
+: Centre of Gravity
 
 CT
 : Computed Tomography

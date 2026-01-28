@@ -80,6 +80,9 @@ iMRI
 IR
 : Interventional Radiology
 
+IRED
+: Infrared-emitting diode (IRED)
+
 MIS
 : Minimally Invasive Surgery
 

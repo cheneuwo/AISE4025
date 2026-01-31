@@ -131,9 +131,6 @@ SVD
 TLE
 : Target Localization Error
 
-TRE
-: Target Registration Error
-
 TQM
 : Total Quality Management
 

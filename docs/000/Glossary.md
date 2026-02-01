@@ -74,6 +74,9 @@ IGS
 IGT
 : Image-Guided Therapy
 
+IID
+: Independent and Identically Distributed
+
 iMRI
 : Intraoperative Magnetic Resonance Imaging
 

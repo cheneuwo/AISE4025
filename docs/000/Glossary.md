@@ -98,12 +98,6 @@ MRI
 MTS
 : Magnetic (electromagnetic) Tracking System
 
-REM
-: Residual Error Metric
-
-RGB
-: Red-Green-and-Blue
-
 OPA
 : Orthogonal Procrustes Analysis
 
@@ -116,8 +110,14 @@ OTS
 PCA
 : Principal Component Analysis
 
+REM
+: Residual Error Metric
+
 RFA
 : Radiofrequency Ablation
+
+RGB
+: Red-Green-and-Blue
 
 RHR
 : Right Hand Rule

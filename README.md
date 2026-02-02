@@ -2,7 +2,7 @@
 
 The website is live [here](https://cheneuwo.github.io/AISE4025/)
 
-Updated on February 1, 2026
+Updated on February 2, 2026
 
 This work is built using [Jupyter Book 2](https://jupyterbook.org/stable/). To run it, JupyterBook V2 must be installed. Refer to [this page](https://jupyterbook.org/stable/get-started/install/) for installation process. 
 

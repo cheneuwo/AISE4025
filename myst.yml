@@ -36,6 +36,9 @@ project:
       children:
         - file: docs/003/Registration.ipynb
         - file: docs/003/Errors.ipynb
+    - title: Medical Imaging
+      children:
+        - file: docs/004/Imaging.ipynb
     - title: Code Samples
       children:
         - file: docs/Code_samples/Tutorial_1_point_axes.ipynb

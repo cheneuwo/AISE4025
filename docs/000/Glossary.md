@@ -14,6 +14,9 @@
 4D
 : In four-dimension or four-dimensional
 
+AR
+: Augmented Reality
+
 Avg
 : average
 
@@ -29,6 +32,9 @@ CAM
 CAS
 : Computer-Assisted Surgery
 
+CCW
+: Counter-clock-wise
+
 CIIM
 : Computer-Integrated Interventional Medicine
 
@@ -37,9 +43,6 @@ COG
 
 CT
 : Computed Tomography
-
-CCW
-: Counter-clock-wise
 
 CW
 : Clock-wise
@@ -109,6 +112,9 @@ OTS
 
 PCA
 : Principal Component Analysis
+
+PET
+: Positron Emission Tomography
 
 REM
 : Residual Error Metric

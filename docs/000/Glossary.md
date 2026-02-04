@@ -56,6 +56,9 @@ DoF
 FLE
 : Fiducial Localization Error
 
+fMRI
+: functional Magnetic Resonance Imaging
+
 FRE
 : Fiducial Registration Error
 

@@ -68,6 +68,9 @@ GUI
 HCI
 : Human-Computer Interface
 
+HU
+: Hounsfield Units
+
 IGI
 : Image-Guided Intervention
 

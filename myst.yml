@@ -76,5 +76,5 @@ site:
   parts:
     primary_sidebar_footer: primary-sidebar-footer.md
   options:
-    avicon: favicon.ico
+    favicon: favicon.ico
     logo: logo.png
